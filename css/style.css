@@ -1,0 +1,336 @@
+body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:#f6f7f9;
+    color:#222;
+}
+
+.header{
+    background:#ffffff;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.header-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:18px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:600;
+}
+
+.contacts{
+    font-size:14px;
+    color:#666;
+}
+
+.nav{
+    background:#ea8a5a;
+}
+
+.nav-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:14px 20px;
+}
+
+.nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-right:25px;
+    font-size:15px;
+}
+
+.hero{
+    background:linear-gradient(120deg,#f3f6fb,#ffffff);
+    padding:80px 20px;
+}
+
+.hero-inner{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.hero h1{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+}
+
+.container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding:25px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.05);
+}
+
+.card h2{
+    margin-top:0;
+}
+
+.sidebar a{
+    display:block;
+    padding:12px 0;
+    text-decoration:none;
+    color:#333;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:25px;
+}
+
+.feature{
+    background:#fafafa;
+    padding:20px;
+    border-radius:8px;
+}
+
+footer{
+    background:#fff;
+    border-top:1px solid #e6e6e6;
+    padding:35px;
+    text-align:center;
+    color:#777;
+    font-size:14px;
+}
+
+
+.center-menu{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+
+.center-menu{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.menu-card{
+    position:relative;
+    border-radius:16px;
+    overflow:hidden;
+    display:block;
+    text-decoration:none;
+}
+
+.menu-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.menu-title{
+    position:absolute;
+    left:20px;
+    bottom:18px;
+    color:#fff;
+    font-size:26px;
+    font-weight:600;
+}
+
+.hero-title{
+    max-width:900px;
+    margin:60px auto 30px;
+    text-align:center;
+    padding:0 20px;
+}
+
+.hero-title h1{
+    font-size:42px;
+    line-height:1.3;
+    font-weight:600;
+    margin-bottom:15px;
+    letter-spacing:0.3px;
+}
+
+.hero-title p{
+    font-size:20px;
+    color:#555;
+    line-height:1.6;
+}
+
+.inner-nav{
+    background:#e18758;
+    padding:18px 0;
+    text-align:center;
+}
+
+.inner-nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 22px;
+    font-size:18px;
+    font-weight:500;
+}
+
+.benefits{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+.benefit{
+    background:#f5f5f5;
+    padding:18px;
+    border-radius:12px;
+    font-size:15px;
+}
+
+.benefit strong{
+    display:block;
+    margin-bottom:6px;
+}
+
+.schedule-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+.day{
+    background:#f5f5f5;
+    padding:20px;
+    border-radius:12px;
+    font-size:16px;
+}
+
+.day h3{
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+.contact-box{
+    background:#f5f5f5;
+    padding:20px;
+    border-radius:12px;
+    font-size:16px;
+}
+
+.contact-box h3{
+    margin-top:0;
+    margin-bottom:8px;
+}
+
+@media (max-width:768px){
+
+/* ===== ОБЩЕЕ ===== */
+
+.container{
+    max-width:100%;
+    padding:0 14px;
+}
+
+/* ===== HEADER ===== */
+
+.header-inner{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:6px;
+}
+
+/* ===== NAV ===== */
+
+.nav-inner{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+/* ===== INDEX HERO ===== */
+
+.hero-title h1{
+    font-size:26px;
+    text-align:center;
+}
+
+.hero-title p{
+    font-size:17px;
+    text-align:center;
+}
+
+/* ===== INDEX CARDS ===== */
+
+.center-menu{
+    grid-template-columns:1fr;
+    gap:18px;
+}
+
+/* ===== INNER PAGES (.card) ===== */
+
+.card{
+    padding:18px;
+}
+
+/* курсы */
+.benefits{
+    grid-template-columns:1fr;
+}
+
+/* расписание */
+.schedule-grid{
+    grid-template-columns:1fr;
+}
+
+/* контакты */
+.contact-grid{
+    grid-template-columns:1fr;
+}
+
+/* блок преимуществ на главной */
+.features{
+    grid-template-columns:1fr;
+}
+
+/* sidebar вниз */
+.sidebar{
+    margin-top:15px;
+    width:100%;
+}
+
+}
