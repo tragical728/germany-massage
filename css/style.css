@@ -327,10 +327,33 @@ footer{
     grid-template-columns:1fr;
 }
 
-/* sidebar вниз */
 .sidebar{
-    margin-top:15px;
-    width:100%;
+    width:100% !important;
+    max-width:100%;
+    margin-top:14px;
+}
+
+.sidebar ul{
+    padding-left:0;
+}
+
+.sidebar li{
+    font-size:15px;
+    padding:10px 0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr !important;
+    gap:14px;
+}
+
+/* ===== SIDEBAR REAL MOBILE FIX ===== */
+
+.card.sidebar{
+    width:100% !important;
+    max-width:100% !important;
+    flex:none !important;
 }
 
 }
