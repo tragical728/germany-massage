@@ -265,7 +265,6 @@ footer{
     padding:0 14px;
 }
 
-/* ===== HEADER ===== */
 
 .header-inner{
     flex-direction:column;
@@ -273,7 +272,6 @@ footer{
     gap:6px;
 }
 
-/* ===== NAV ===== */
 
 .nav-inner{
     display:flex;
@@ -281,8 +279,6 @@ footer{
     justify-content:center;
     gap:10px;
 }
-
-/* ===== INDEX HERO ===== */
 
 .hero-title h1{
     font-size:26px;
@@ -294,35 +290,28 @@ footer{
     text-align:center;
 }
 
-/* ===== INDEX CARDS ===== */
-
 .center-menu{
     grid-template-columns:1fr;
     gap:18px;
 }
 
-/* ===== INNER PAGES (.card) ===== */
 
 .card{
     padding:18px;
 }
 
-/* курсы */
 .benefits{
     grid-template-columns:1fr;
 }
 
-/* расписание */
 .schedule-grid{
     grid-template-columns:1fr;
 }
 
-/* контакты */
 .contact-grid{
     grid-template-columns:1fr;
 }
 
-/* блок преимуществ на главной */
 .features{
     grid-template-columns:1fr;
 }
@@ -348,12 +337,99 @@ footer{
     gap:14px;
 }
 
-/* ===== SIDEBAR REAL MOBILE FIX ===== */
-
 .card.sidebar{
     width:100% !important;
     max-width:100% !important;
     flex:none !important;
 }
 
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:18px;
+margin-top:20px;
+}
+
+.form-group{
+display:flex;
+flex-direction:column;
+margin-bottom:14px;
+}
+
+.contact-form label{
+font-size:14px;
+color:#555;
+margin-bottom:6px;
+}
+
+.contact-form input{
+width:100%;
+padding:14px 16px;
+border-radius:14px;
+border:1px solid #e4e4e4;
+background:#fafafa;
+font-size:16px;
+outline:none;
+transition:all .2s ease;
+box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+
+.contact-form input:focus{
+background:#fff;
+border-color:#f39c12;
+box-shadow:0 0 0 3px rgba(243,156,18,0.15);
+}
+
+.btn-main{
+margin-top:10px;
+padding:16px;
+border:none;
+border-radius:16px;
+background:#f39c12;
+color:#fff;
+font-size:17px;
+cursor:pointer;
+font-weight:600;
+box-shadow:0 6px 18px rgba(243,156,18,0.25);
+transition:all .2s ease;
+}
+
+.btn-main:hover{
+transform:translateY(-1px);
+box-shadow:0 10px 22px rgba(243,156,18,0.35);
+}
+.contact-form input,
+.contact-form select{
+display:block !important;
+width:100% !important;
+padding:14px 16px !important;
+border-radius:14px !important;
+border:1px solid #e4e4e4 !important;
+background:#fafafa !important;
+font-size:16px !important;
+outline:none !important;
+box-shadow:0 2px 6px rgba(0,0,0,0.04) !important;
+}
+
+.contact-form label{
+display:block !important;
+margin-bottom:6px;
+font-size:14px;
+color:#555;
+}
+
+.contact-form button{
+display:block !important;
+width:100%;
+margin-top:12px;
+padding:16px;
+border:none;
+border-radius:16px;
+background:#f39c12;
+color:#fff;
+font-size:17px;
+cursor:pointer;
+font-weight:600;
 }
