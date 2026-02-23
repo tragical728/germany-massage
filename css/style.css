@@ -373,6 +373,26 @@ font-size:16px;
 border-radius:10px;
 }
 
+.header-inner{
+align-items:center;
+text-align:center;
+}
+
+.logo{
+display:block;
+margin:0 auto;
+font-size:24px;
+font-weight:1200;
+letter-spacing:0.6px;
+text-align:center;
+}
+
+.contacts{
+text-align:center;
+font-size:13px;
+margin-top:4px;
+}
+
 }
 
 .contact-form{
@@ -467,6 +487,6 @@ font-weight:600;
 .logo{
 text-decoration:none;
 color:#222;
-font-size:20px;
+font-size:29px;
 font-weight:600;
 }
