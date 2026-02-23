@@ -463,3 +463,10 @@ font-size:17px;
 cursor:pointer;
 font-weight:600;
 }
+
+.logo{
+text-decoration:none;
+color:#222;
+font-size:20px;
+font-weight:600;
+}
