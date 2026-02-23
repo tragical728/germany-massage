@@ -192,17 +192,26 @@ footer{
 }
 
 .inner-nav{
-    background:#e18758;
-    padding:18px 0;
-    text-align:center;
+background:#e18758;
+padding:16px 20px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:22px;
 }
 
 .inner-nav a{
-    color:#fff;
-    text-decoration:none;
-    margin:0 22px;
-    font-size:18px;
-    font-weight:500;
+color:#fff;
+text-decoration:none;
+font-size:18px;
+font-weight:500;
+padding:6px 10px;
+border-radius:8px;
+transition:0.2s ease;
+}
+
+.inner-nav a:hover{
+background:rgba(255,255,255,0.15);
 }
 
 .benefits{
@@ -346,6 +355,22 @@ footer{
     width:100% !important;
     max-width:100% !important;
     flex:none !important;
+}
+
+.inner-nav{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+padding:14px;
+}
+
+.inner-nav a{
+display:block;
+text-align:center;
+background:rgba(255,255,255,0.15);
+padding:12px 8px;
+font-size:16px;
+border-radius:10px;
 }
 
 }
